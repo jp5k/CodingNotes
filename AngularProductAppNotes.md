@@ -13,11 +13,11 @@ proxy="http://webfilter.etc.com:80"
 
 rejectUnauthorized="false"
 
-##Chapter 2 - Getting Started
+## Chapter 2 - Getting Started
 
 Angular has expressive HTML/Powerful Data Binding/Modular By Design/Built in back end navigation
 
-Application = Component + Component + Component & Services
+ Application = Component + Component + Component & Services
 
 Each Component = Template HTML (**the view**)  +  Class (Properties and Methods) **(the code)** + Metadata **(Additional Data to Angular)**
 
@@ -35,7 +35,7 @@ Our Application has   index.html  -->  App Component --> Welcome Component
 			Product Data Service
 
 
-##Chapter 3 - First Things First 
+## Chapter 3 - First Things First 
 
 __Typescript__
 
