@@ -1,6 +1,6 @@
 # IntelliJ Idea Notes
 
-##Core IDE tools
+## Core IDE tools
 * Help gives all shortcuts
 * Double shift to search all
 * Save file as scratch file for notes etc.  Can then search for scratches and delete them later.
@@ -10,7 +10,7 @@
 * Can set up an artifact so that the project builds a .jar file.  Can also set up run cofiguration to run from the .jar file. 
 * Can analyse code from the menu.
 
-##Code navigation and generation
+## Code navigation and generation
 * DOUBLE SHIFT to search everywhere. V.useful. Also for commands, eg open terminal.Build project.
 * Ctl + N for going to class directly.
 * Ctl + E for open recent files and windows.  V.useful.
@@ -30,7 +30,7 @@
 * Alt + enter also for suggestions.
 * Note suggestions and intentions very similar.
 
-##  Refactoring
+## Refactoring
 * Ctl + shift + alt + t  for refactoring options.
 * If method has 4 or more params, then sensible to extract as param list. Ide does this all for you.
 * Can move methods to a different class.
