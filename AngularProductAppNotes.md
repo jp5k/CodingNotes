@@ -9,7 +9,7 @@ Angular Product Application from Pluralsight - good first Angular 2 project
 ## Corporate Proxy Issue When Running Project At Work
 To get round corporate proxy, create a .typingsrc file in the root with the following config:
 
-proxy="http://webfilter.ecclesiastical.com:80"
+proxy="http://webfilter.etc.com:80"
 
 rejectUnauthorized="false"
 
