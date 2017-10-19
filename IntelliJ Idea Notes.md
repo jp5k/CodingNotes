@@ -22,7 +22,7 @@
 * There is a shortcut key for constructor generation,
 * Ctl + alt + T  to get surround code, e.g for loop, do loop, try catch etc..
 
-##Code Inspections and Intentions
+## Code Inspections and Intentions
 * Code inspections are code analysis rules.
 * Ctl + s for code inspection.
 * Alt + enter to show all intention suggestions.
@@ -30,7 +30,7 @@
 * Alt + enter also for suggestions.
 * Note suggestions and intentions very similar.
 
-##Refactoring
+##  Refactoring
 * Ctl + shift + alt + t  for refactoring options.
 * If method has 4 or more params, then sensible to extract as param list. Ide does this all for you.
 * Can move methods to a different class.
@@ -38,7 +38,7 @@
 * Can replace constructor with a factory method, create measuring tape rather than measuringtape constructor.
 * Can safely decouple using delegation rather than inheritance in refactoring methods.
 
-##IntelliJ live templates
+## IntelliJ live templates
 * Boiler plate code out of the box.
 * They are contextually aware.
 * Fori tab gives for loop.
