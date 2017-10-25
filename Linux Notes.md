@@ -50,3 +50,9 @@ echo $PATH   to get a list of all directories on your path.
 
 Unpack tar file into an opt directory, e.g. to unpack IntelliJ idea (with SUDO permissions)
 sudo tar xvzf ideaIU-2017.2.5.tar.gz -C /opt/IntelliJ
+
+Tomcat 
+-------
+Install Tomcat.  Be careful to ensure compiling and Tomcat version are all using the same Java version.
+I had an issue with EccDeployer not having the correct spring beans in the deployer, and was getting a bad CEN 
+signature.  Delete the files from the repository, and download again.
