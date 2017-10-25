@@ -49,13 +49,13 @@
 * Highlight code , ctl + alt + t to give refactoring, surround with try catch for example.
 * Can create your own live templates within the ide, eg public method with variables etc...
 
-#Debugging
+## Debugging
 * Run to cursor icon will go to next breakpoint.
 * Right click variable, add to watches to constantly display variable value. 
 * Can evaluate expressions, there is a shortcut key on debug window for this.  Takes scope of variables into account.
 * List of breakpoints will be available in 'favourites' window.
 
-#Git
+## Git
 * VC S version control system menu
 * Good plugin for intellij called .ignore, which provides .git ignore files.
 * Version control log gives the git commands which are issued in the gui.
@@ -64,13 +64,13 @@
 * Very good merge editor too by using the IDE.
 * Github integration also catered for.
 
-#Junit
+## Junit
 * New 'test' directory.  Mark the test directory as test sources root.
 * Can right click on a class name and generate test methods directly from the class.
 * Can 'share' test config in menu properties so that tests from different modules can all be run at the same time.
 * Can run code coverage when running tests, or even when calling main method. 
 
-#Maven
+## Maven
 * Create a simple architype, will create .pom file etc for you. Very useful for getting Spring projects set up correctly off the bat.
 * Maven tool window gives you all the maven plug in goals. 
 
