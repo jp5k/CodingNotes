@@ -75,3 +75,12 @@
 * Maven tool window gives you all the maven plug in goals. 
 
 
+## Tips and Tricks
+* Ctl + W to get an incrementally larger selection of code.
+* Once selected, ctl + shif + down will move block of code up and down.
+* Shift + ctl + a for colour picker for css.
+* CTL + ALT + L   V.IMPORTANT for Formatting Code.
+* Can chose the scope to carry out code analysis.
+* Menu allows you to remove duplicates in your code.
+* Ctl + P for parameter info into a method. 
+* Productivity guide allows you to see which commands you are using the most.  
