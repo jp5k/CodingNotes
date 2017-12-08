@@ -16,7 +16,7 @@
 * Ctl + E for open recent files and windows.  V.useful.
 * Ctl + B to find parent method etc... when clicking on method.
 * Ctl + shift + l for peek definition of class.
-* Ctl F12 shows members within measuring tape.
+* Ctl F12 shows members within measuring tape - very useful one.
 • Alt + F1 to open a class within a particular project window.
 * Ctl+H to see class hierarchy.
 * There is a shortcut key for constructor generation,
@@ -84,3 +84,4 @@
 * Menu allows you to remove duplicates in your code.
 * Ctl + P for parameter info into a method. 
 * Productivity guide allows you to see which commands you are using the most.  
+

@@ -1,6 +1,6 @@
 # Angular Notes
 
-##General
+## General
 
 New project is following in CLI:
 
@@ -18,7 +18,7 @@ ALWAYS do work in ngOninit rather than constructor !!
 
 Angular docs are great for API lookups. 
 
-##Services - 
+## Services - 
 Lots of good info in John Papa and Ward Bell Pluralsight play  by play
 When creating a service, dependency injection is scoped.  Only put service in declaration
 of the of the lowest component in the hierarchy that needs it.
@@ -29,10 +29,10 @@ in app component, then everything has it within your application.
 
 Always catch errors from observables.
 
-##Barrels
+## Barrels
 Angular2/core is a barrel.  Use barrels in an index.ts file to export what you need.  In 
 app.component you can then import whatever you need from that particular module.
 
-##POSTMAN
+## POSTMAN
 Like SOAPUI, but great for checking data back from server.
 

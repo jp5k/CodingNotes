@@ -63,3 +63,9 @@ Oracle Database
 To allow JOHN user to be able to create tables under SYSTEM database:
 
 `alter user JOHN quota unlimited on system;`
+
+
+To Copy Files from One Directory to Another
+----------------------------------------------
+sudo cp -a OriginalProject DestinationProject
+-a will  copy all subdirectories and files underneath main folder
