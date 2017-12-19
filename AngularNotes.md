@@ -16,7 +16,7 @@ File pathing - it is possible to have relative paths rather than absolute paths.
 
 ALWAYS do work in ngOninit rather than constructor !!
 
-Angular docs are great for API lookups. 
+Angular docs are great for API lookups.
 
 ## Services - 
 Lots of good info in John Papa and Ward Bell Pluralsight play  by play
