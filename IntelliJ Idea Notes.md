@@ -56,7 +56,7 @@
 * List of breakpoints will be available in 'favourites' window.
 
 ## Git
-* VC S version control system menu
+* VCS version control system menu
 * Good plugin for intellij called .ignore, which provides .git ignore files.
 * Version control log gives the git commands which are issued in the gui.
 * Log in vcs window shows history etc.. of commits.
