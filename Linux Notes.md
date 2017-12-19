@@ -69,3 +69,8 @@ To Copy Files from One Directory to Another
 ----------------------------------------------
 sudo cp -a OriginalProject DestinationProject
 -a will  copy all subdirectories and files underneath main folder
+
+To give permission to all files rwx in CodingNotes directoy:
+
+`sudo chmod -R 777 CodingNotes/`
+
