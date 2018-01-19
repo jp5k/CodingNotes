@@ -74,3 +74,7 @@ To give permission to all files rwx in CodingNotes directoy:
 
 `sudo chmod -R 777 CodingNotes/`
 
+To Kill software on a particular port
+-------------------------------------
+`sudo kill $(sudo lsof -t -i:4200)`
+
