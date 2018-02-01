@@ -1,12 +1,18 @@
 # Ubuntu Notes
 
 Install Java 8
+--------------
+
+Install Java 8
 This link
 [https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04)
 
 Then this link to set environment variables.
 
 [http://askubuntu.com/questions/175514/how-to-set-java-home-for-java](http://askubuntu.com/questions/175514/how-to-set-java-home-for-java)
+
+Install Git
+-----------
 
 Install GIT
 [https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04)
@@ -16,10 +22,13 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@domain.com"
 
 Install Node.js
+---------------
+
+Install Node.js
 [http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager](http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager)
 
-
-
+General Stuff
+-------------
 Scan for wireless networks
 sudo iwlist scan    = useful for scanning wireless addresses
 
@@ -70,6 +79,8 @@ To Copy Files from One Directory to Another
 sudo cp -a OriginalProject DestinationProject
 -a will  copy all subdirectories and files underneath main folder
 
+File Permissions
+----------------
 To give permission to all files rwx in CodingNotes directoy:
 
 `sudo chmod -R 777 CodingNotes/`
@@ -78,3 +89,6 @@ To Kill software on a particular port
 -------------------------------------
 `sudo kill $(sudo lsof -t -i:4200)`
 
+Files
+-----
+Use `cat` to display contents of a file from 
