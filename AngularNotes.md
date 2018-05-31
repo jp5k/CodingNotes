@@ -37,3 +37,49 @@ app.component you can then import whatever you need from that particular module.
 Like SOAPUI, but great for checking data back from server.
 
 ## Notes from Pluralsight Angular Forms by Mark Zamoyta
+Covers template driven forms (but also applies to reactive forms too)
+
+Can the angular2 seed project
+git clone xxxx yyyy will clone the repository into your respository named 'yyyy'
+OR easier way is just to use the angular CLI.
+`ng new angular-tour-of-heroes`
+
+To get latest version of Angular Cli
+------------------------------------
+`npm update -g @angular/cli`
+
+Then to generate a new project using the CLI 
+ng new MyNewProject 
+
+Then cd into project, and to serve it up:
+`ng serve --open`
+
+npm install
+-----------
+calling npm install will look in package.json and install everything we need. Also call npm 
+
+Reactive Forms (i.e not ones used on this course)
+-------------------------------------------------
+Use a component's template. 
+They create a Form Model in TypeScript (which must be kept in sync with the template)
+Main advantage is that you can then Unit Test against the Form Model (rather than the DOM itself)
+Also, validation can be in the form model itself. 
+
+Important - note that HttpModule and FormsModule need to be imported in app.module for this Pluralsight Course.
+
+The application is bootstrapped using main.ts which passes in the AppModule.  This is then also bootstrapped in 
+app.module.ts
+
+The Home form where all the course is centered
+----------------------------------------------
+Just add a selector directive from the app.component.html file `<app-home></app-home>`
+
+Template variable #form takes in the directive ngForm using following syntax:
+`#form="ngForm"`  Can then bind directly to #form, e.g. form.pristine
+
+Specify ngModel on an input or any tag, to make angular aware of it.  And must associate a name with the tag.
+
+Browser Validation
+------------------
+Important to turn OFF browser validation by using novalidate in the form tag.  This is an HTML standard, not an angular 
+feature. 
