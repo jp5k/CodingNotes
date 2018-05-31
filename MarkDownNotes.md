@@ -32,3 +32,5 @@ A [link](http://example.com).
 
 underline
 ---------
+
+`back ticks for code`

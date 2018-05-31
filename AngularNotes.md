@@ -36,3 +36,4 @@ app.component you can then import whatever you need from that particular module.
 ## POSTMAN
 Like SOAPUI, but great for checking data back from server.
 
+## Notes from Pluralsight Angular Forms by Mark Zamoyta

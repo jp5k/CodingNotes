@@ -27,6 +27,66 @@ Install Node.js
 Install Node.js
 [http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager](http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager)
 
+
+Install MySQL
+-------------
+
+See this link:
+[https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-mysql-on-ubuntu-16-04](https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-mysql-on-ubuntu-16-04d)
+
+To test it is up and running:
+`mysqladmin -u root -p version`
+
+To get list of ports etc from sql server:
+`mysql SHOW GLOBAL VARIABLES LIKE 'PORT'`
+
+also:
+`ps aux | grep mysql`
+
+also list of verbose parameters:
+`mysqld --verbose --help`
+
+To restart mysql server:
+`sudo /etc/init.d/mysql start`
+
+To set old password types:
+[mysqld]
+default-authentication-plugin=mysql_native_password
+
+Log into MYSQL from command line
+`mysql -u root -p`
+
+Can then type SQL commands
+`Create user 'john'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass';`
+
+For setting up Spring projects to use MySQL.  This will allow new Spring users to be entered.
+sudo mysql --password
+    
+
+
+
+
+Upgrade IntelliJ 
+---------------
+
+Minor versions will be in place upgrades.  
+
+For major releases, download the latest .tar.gz file from the IntellJ site
+`https://www.jetbrains.com/idea/download/?fromIDE=#section=linux`
+
+Unpack tar file into opt directory, e.g. to unpack IntelliJ idea (with SUDO permissions)
+sudo tar xvzf ideaIU-2017.2.5.tar.gz -C /opt/IntelliJ
+
+Change the launchsript to point to new IntelliJ
+`gedit /home/john/bin/launchsript`
+
+`To remove old version of IntelliJ (and force the delete without prompt every time)`
+rm -rf mydir  
+
+Also need to update the desktop shortcut icon.  Do this within applicaton 
+Tools --> Desktop entry
+
+
 General Stuff
 -------------
 Scan for wireless networks
@@ -92,3 +152,10 @@ To Kill software on a particular port
 Files
 -----
 Use `cat` to display contents of a file from 
+
+Remove files and directories (with force remove)
+----------------------------
+sudo rm -fr mydir
+ 
+
+
