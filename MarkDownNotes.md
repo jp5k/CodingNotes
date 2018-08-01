@@ -34,3 +34,6 @@ underline
 ---------
 
 `back ticks for code`
+```
+multiple back ticks for a block of code
+```
