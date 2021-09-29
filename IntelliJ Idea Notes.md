@@ -1,5 +1,16 @@
 # IntelliJ Idea Notes
 
+## Main shortcuts
+* Ctl + Alt + L  = format code
+* Ctl + Alt + O  = remove unused imports
+* Ctl + E  = extremely useful, recent files and also Terminal etc
+* Alt + F7 find usages across project 
+* Just use the Ctl key pressed, whilst pointing to a class/method/variable to see where it is defined.  
+* Run application = Alt + Shift + F10
+* Iter = template for iterating over a collection (NOTE, similar itXX templates exist)
+
+
+
 ## Core IDE tools
 * Help gives all shortcuts
 * Double shift to search all
