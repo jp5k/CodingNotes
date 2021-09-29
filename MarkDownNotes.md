@@ -33,4 +33,4 @@ A [link](http://example.com).
 underline
 ---------
 
-`back ticks for code`
+`back ticks for code` to show code

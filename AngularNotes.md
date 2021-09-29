@@ -83,3 +83,10 @@ Browser Validation
 ------------------
 Important to turn OFF browser validation by using novalidate in the form tag.  This is an HTML standard, not an angular 
 feature. 
+
+Bootstrap
+---------
+Go to [getbootstrap.com] and go to get started.  In the CDN section, just copy the .css (don't worry about the js
+or the theme!!).  Just paste the link at the bottom of the index.html section. 
+
+ 
